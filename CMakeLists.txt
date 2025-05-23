@@ -4,4 +4,6 @@ project(uai C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(uai main.c
-        cpu.c)
+        cpu.c
+        screen.c
+        screen.h)

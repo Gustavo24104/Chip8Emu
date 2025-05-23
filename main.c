@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdint.h>
 #include "cpu.h"
-
+#include <stdlib.h>
 
 
 

@@ -61,6 +61,12 @@ build CMakeFiles/uai.dir/cpu.c.obj: C_COMPILER__uai_unscanned_Debug C$:/Users/gu
   OBJECT_DIR = CMakeFiles\uai.dir
   OBJECT_FILE_DIR = CMakeFiles\uai.dir
 
+build CMakeFiles/uai.dir/screen.c.obj: C_COMPILER__uai_unscanned_Debug C$:/Users/gusta/Desktop/uai/screen.c || cmake_object_order_depends_target_uai
+  DEP_FILE = CMakeFiles\uai.dir\screen.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\uai.dir
+  OBJECT_FILE_DIR = CMakeFiles\uai.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target uai
@@ -69,7 +75,7 @@ build CMakeFiles/uai.dir/cpu.c.obj: C_COMPILER__uai_unscanned_Debug C$:/Users/gu
 #############################################
 # Link the executable uai.exe
 
-build uai.exe: C_EXECUTABLE_LINKER__uai_Debug CMakeFiles/uai.dir/main.c.obj CMakeFiles/uai.dir/cpu.c.obj
+build uai.exe: C_EXECUTABLE_LINKER__uai_Debug CMakeFiles/uai.dir/main.c.obj CMakeFiles/uai.dir/cpu.c.obj CMakeFiles/uai.dir/screen.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\uai.dir
