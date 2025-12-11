@@ -1,6 +1,6 @@
 ## Sobre 
 
-escreva aqui gggg!!
+Interpretador de chip8 para computadores modernos, validado com ROMs de testes disponíveis abaixo 
 
 ## Pré-requisitos
 
